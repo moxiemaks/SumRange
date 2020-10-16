@@ -7,10 +7,12 @@ namespace SumRange
     {
         static void Main()
         {
+            // Подготовим тестовые значения
+            //
             Range[] ranges = {
                 Range.Create(1,4), 
                 Range.Create(7,10), 
-                Range.Create(3,5), 
+                Range.Create(3,5)
             };
 
             Console.WriteLine(Range.Sum(ranges));
